@@ -22,7 +22,7 @@ function tryUnlock() {
     document.getElementById('demo-badge').classList.add('hidden');
     showToast('🎉 Full access unlocked! Welcome to CalmPaws Pro!');
   } else {
-    showToast('❌ Invalid code. Try CALMPAWS2026');
+    showToast('❌ Invalid code. Please check your purchase confirmation email.');
     document.getElementById('unlock-code-input').style.borderColor = 'var(--red)';
     setTimeout(() => document.getElementById('unlock-code-input').style.borderColor = '', 1500);
   }
